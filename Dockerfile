@@ -2,7 +2,7 @@ FROM nginx:1.11
 
 MAINTAINER David Galoyan <davojan@gmail.com>
 
-ENV NGX_CACHE_PURGE_VERSION=2.4
+ENV NGX_CACHE_PURGE_VERSION=2.4.1
 
 # Install basic packages and build tools
 RUN apt-get update && \
